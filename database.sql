@@ -1,6 +1,9 @@
-CREATE TABLE `picture` ( 
+CREATE TABLE `register_user` ( 
 `id` INT(10) NOT NULL AUTO_INCREMENT ,
+`username` VARCHAR(255) NOT NULL ,  
+`email` VARCHAR(255) NOT NULL ,
 `image` VARCHAR(255) NOT NULL ,
+`password` VARCHAR(255) NOT NULL ,
 `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ,
 PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
