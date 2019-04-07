@@ -14,3 +14,5 @@ post_max_size = 400M
 
 
 #Create a table register_user to store all the info of user the in the database so that later we retrive it . Refer database.sql file
+
+#please read server.php file to get the php code of image optimization.
